@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Paulo Leme - Design de Identidade Visual</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">Paulo Leme</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Design de Identidade Visual</h2>
+      <p>Transformo ideias em marcas memoráveis e autênticas.</p>
+      <a href="#projetos" class="btn">Ver Projetos</a>
+    </div>
+  </section>
+
+  <section id="projetos" class="portfolio">
+    <h2>Projetos em Destaque</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/projeto1.jpg" alt="Projeto 1">
+        <h3>Clínica Daniela Leme</h3>
+        <p>Identidade visual minimalista e sofisticada para clínica de estética farmacêutica.</p>
+      </div>
+      <div class="card">
+        <img src="images/projeto2.jpg" alt="Projeto 2">
+        <h3>Café Aurora</h3>
+        <p>Marca artesanal com conceito inspirado em cafés especiais e design orgânico.</p>
+      </div>
+      <div class="card">
+        <img src="images/projeto3.jpg" alt="Projeto 3">
+        <h3>Studio Bloom</h3>
+        <p>Rebranding para estúdio de design floral com estética natural e moderna.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about-content">
+      <h2>Sobre Mim</h2>
+      <p>Sou designer gráfico especializado em identidade visual e construção de marcas autênticas. Cada projeto é desenvolvido com atenção à essência do cliente e à coerência estética.</p>
+      <p><strong>Email:</strong> <a href="mailto:contato@pauloleme.com">contato@pauloleme.com</a></p>
+    </div>
+  </section>
+  <section id="contato" class="contact">
+  <h2>Entre em Contato</h2>
+  <p>Quer conversar sobre um projeto ou tirar dúvidas? Envie uma mensagem:</p>
+
+  <form action="https://formsubmit.co/seuemail@gmail.com" method="POST" class="contact-form">
+    <!-- Evita spam -->
+    <input type="hidden" name="_captcha" value="false">
+    <!-- Redireciona para uma página de agradecimento -->
+    <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+
+    <div class="form-group">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+    </div>
+
+    <div class="form-group">
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+    </div>
+
+    <button type="submit" class="btn">Enviar Mensagem</button>
+  </form>
+</section>
+
+  <footer>
+    <p>© 2025 Paulo Leme. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
